@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="row col-sm-12 col-md-12 col-lg-12 InputBoxRow ">
+    @Html.LabelFor(Model => Model.INPUTRecord, new { @class = "InputEnterLabel" })
+    @Html.TextBoxFor(Model => Model.INPUTRecord, new { @class = "InputBox", @placeholder = "Place holder inside input",  onkeyup = "inputBoxPlaceHolder(this)", data_placholder = "Outside PC:" })
+    
+</div>

@@ -1,0 +1,48 @@
+﻿.InputBoxRow {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 55px;
+    left:0px;
+}
+
+
+.InputEntered {
+    padding-left: 30px !important;
+    max-width: calc(100% - 100px) !important;
+    min-width: calc(100% - 100px) !important;
+    margin-left: 100px !important;
+}
+.InputBox {
+    min-height: 40px;
+    max-height: 40px;
+    line-height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background-color: #e6e1e1;
+    border: none;
+    font-weight: 600;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.InputEnterLabel {
+    position: absolute;
+    visibility: hidden;
+    z-index: 0;
+    min-height: 40px;
+    max-height: 40px;
+    line-height: 40px;
+    color: #aea9a9;
+    font-weight: 500;
+    padding-left: 10px;
+    font-size: x-small;
+}
+
+.InputEnterLabelViewable {
+    visibility: visible;
+    background-color: #e6e1e1;
+    max-width: 100px !important;
+    min-width: 100px !important;
+}
